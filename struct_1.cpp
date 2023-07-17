@@ -1,6 +1,7 @@
 // use one structure to represent two games
 
-struct myGames {
+// structure named "Games"
+struct Games {
   string brand; 
   string model;
   int year;
@@ -8,14 +9,13 @@ struct myGames {
 
 // first structure
 int main() {
-  // declared variable myGames that uses the myGames structure, structure is now data type
-  // of the variable
-  myGames Game1;
+  // created Games structure, stored it in Game1; 
+  Games Game1;
   Game1.brand = "Half Life";
   Game1.year = 1998;
 
-  // second structure
-  myGames Game2;
+  // Game2 stored in Games structure
+  Games Game2;
   Game2.brand = "Half Life 2";
   Game2.year = 2004;
 
