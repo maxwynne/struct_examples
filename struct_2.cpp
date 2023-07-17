@@ -14,7 +14,7 @@ int main()
 {
     std::cout << "Please enter first distance: " << endl;
 
-    std::cout << "Please enter feet: ";
+    std::cout << "Please enter feets: ";
     cin >> a1.feets;
 
     std::cout << "Please enter inches: "'
