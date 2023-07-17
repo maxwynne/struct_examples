@@ -1,6 +1,6 @@
 // use one structure to represent two games
 
-struct {
+struct myGames {
   string brand; 
   string model;
   int year;
