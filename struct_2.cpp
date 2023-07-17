@@ -33,7 +33,7 @@ int main()
     add.feets = a1.feets + a2.feets;
     add.inches = a1.inches + a2.inches;
 
-    count << endl << "The sum of distances= " << add.feets << " feet " << add.inches << "inches" << "\n";
+    count << endl << "The sum of distances= " << add.feets << "feet" << add.inches << "inches" << "\n";
     return 0;
     
 }
