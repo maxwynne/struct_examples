@@ -19,7 +19,7 @@ int main()
     std::cout << "Please enter feets: ";
     cin >> a1.feets;
 
-    std::cout << "Please enter inches: "'
+    std::cout << "Please enter inches: ";
     cin >> a1.inches;
 
     std::cout << "Please enter second distance: " << "\n";
